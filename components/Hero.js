@@ -3,6 +3,8 @@ import Brain from "./icons/Brain";
 import BriedCaseMed from "./icons/BriefCaseMed";
 import Chip from "./icons/Chip";
 import CommentMedical from "./icons/CommentMedical";
+import Email from "./icons/Email";
+import Location from "./icons/Location";
 import Pills from "./icons/Pills";
 import ThermoMeter from "./icons/Thermometer";
 const Hero = () => {
@@ -68,15 +70,15 @@ const Hero = () => {
         <div className="pb-[3%] pt-[10%] pl-[5%] lg:pl-[20%] pr-[10%]">
           <p className="font-semibold text-xl lg:text-3xl text-slate-800">
             RSPL Health:
-            <br/>
-            <br/>
-            Specializing in AI (Artificial Intelligence) and ML
-            (Machine Learning) solutions typically offers innovative products
-            and services that leverage these technologies to enhance healthcare
+            <br />
+            <br />
+            Specializing in AI (Artificial Intelligence) and ML (Machine
+            Learning) solutions typically offers innovative products and
+            services that leverage these technologies to enhance healthcare
             delivery and improve patient outcomes.
           </p>
-          <br/>
-          <p>Here's a description</p>
+          <br />
+          <p>Here&apos;s a description</p>
           <p className="text-slate-800 text:lg lg:text-xl mt-20">
             AI and ML-Powered Medical Solutions
           </p>
@@ -84,6 +86,24 @@ const Hero = () => {
         {data.map((item, index) => (
           <Section key={`section-${index}`} {...item} />
         ))}
+
+        <div className="flex flex-col py-20 pl-[20%] pr-[5%] gap-8 lg:gap-20">
+          <p className="text-2xl lg:text-7xl font-semibold text-slate-700">Contact us</p>
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-36">
+            <div className="flex flex-col items-start gap-1 lg:gap-2">
+              <Email className="fill-slate-600 h-4 lg:h-6" />
+              <p className="text-sm lg:text-xl text-slate-500">support @rsplhealth.in</p>
+            </div>
+            <div className="flex flex-col items-start gap-1 lg:gap-2">
+              <Location className="fill-slate-600 h-4 lg:h-6" />
+              <p className="text-sm lg:text-xl text-slate-500">
+                Ramanathan Software Pvt Ltd (RSPL), Indiqube Ascent, 420,<br/>
+                Mahakavi Vemana Road, KHB Block Koramangala, Koramangala 4-B<br/>
+                Block, Koramangala, Bengaluru, Karnataka PIN-560034<br/>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
