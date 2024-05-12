@@ -1,6 +1,10 @@
-import Image from "next/image";
-import heroImg from "../public/hero.png";
 import Section from "./Section";
+import Brain from "./icons/Brain";
+import BriedCaseMed from "./icons/BriefCaseMed";
+import Chip from "./icons/Chip";
+import CommentMedical from "./icons/CommentMedical";
+import Pills from "./icons/Pills";
+import ThermoMeter from "./icons/Thermometer";
 const Hero = () => {
   const data = [
     {
@@ -8,30 +12,37 @@ const Hero = () => {
       content: "Creating AI-driven tools that analyze patient data, medical histories, and clinical guidelines to provide healthcare professionals with personalized treatment recommendations, drug interactions alerts, and risk assessments",
       number: "01",
       wrapperClasses: "bg-yellow-400",
-      theme: "light"
+      theme: "light",
+      icon: <Brain className="fill-slate-800" height={300} />
     },
     {
       title: "Remote Patient Monitoring",
       content: "Designing AI-powered devices and software for remote patient monitoring, allowing healthcare providers to track patients' vital signs, symptoms, and adherence to treatment plans in real-time, leading to proactive intervention and improved chronic disease management",
       wrapperClasses: "bg-green-400",
-      number: "02"
+      number: "02",
+      icon: <ThermoMeter className="fill-white" height={300} />
     },
     {
       title: "Drug Discovery and Development",
       content: "Utilizing ML algorithms to analyze vast amounts of biological data, identify potential drug targets, predict drug efficacy, and accelerate the drug discovery process, ultimately leading to the development of more effective and targeted therapies",
-      wrapperClasses: "white",
-      number: "03"
+      wrapperClasses: "bg-white",
+      theme: "light",
+      number: "03",
+      icon: <Pills className="fill-slate-800" height={300} />
     },
     {
       title: "Healthcare Operations Optimization",
       content: "Implementing AI-driven solutions for healthcare operations, such as predictive analytics for resource allocation, supply chain optimization, staff scheduling, and workflow automation, to improve efficiency and reduce costs",
       wrapperClasses: "bg-rose-500",
-      number: "04"
+      number: "04",
+      icon: <BriedCaseMed className="fill-white"  height={300} />,
+      
     },
     {
       title: "Natural Language Processing (NLP)",
       content: "Developing NLP algorithms to extract and analyze unstructured medical data from electronic health records (EHRs), clinical notes, and research literature, enabling insights into patient outcomes, disease trends, and treatment effectiveness",
       wrapperClasses: "bg-sky-500",
+      icon: <Chip className="fill-white" height={300} />,
       number: "05"
     },
     {
@@ -39,6 +50,7 @@ const Hero = () => {
       content: "Building AI-powered telemedicine platforms that offer virtual consultations, symptom triage, medical chatbots, and remote monitoring capabilities, expanding access to healthcare services and improving patient engagement",
       number: "06",
       wrapperClasses: "bg-slate-700",
+      icon: <CommentMedical  className="fill-white"  height={300} />,
       theme: "dark"
     }
   ];

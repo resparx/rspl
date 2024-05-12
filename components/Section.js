@@ -1,6 +1,7 @@
+import Brain from "./icons/Brain";
 
 
-const Section = ({ number = "01", sectionTitle ="Services", theme = "light", title, content, wrapperClasses }) => {
+const Section = ({ number = "01", sectionTitle ="Services", theme, title, content, wrapperClasses, icon }) => {
 
     const fontColor = theme === "light" ? "text-slate-800" : "white"
     const bgColor = theme === "light" ? "bg-slate-200" : "bg-slate-800" 
@@ -12,9 +13,14 @@ const Section = ({ number = "01", sectionTitle ="Services", theme = "light", tit
         </div>
         <p className={`${fontColor} [writing-mode:vertical-lr] text-3xl tracking-widest`}>{sectionTitle}</p>
       </div>
-      <div>
-            <p className={`${fontColor} text-7xl font-semibold w-[50%] mb-12`}>{title}</p>
-            <p className={`${fontColor} w-[60%] text-xl font-light`}>{content}</p>
+      <div className="flex gap-20 items-center">
+      <div className="flex flex-col">
+            <p className={`${fontColor} text-7xl font-semibold w-[80%] mb-12`}>{title}</p>
+            <p className={`${fontColor} w-[80%] text-xl font-light`}>{content}</p>
+      </div>
+      <div className="mr-20">
+        {icon}
+      </div>
       </div>
     </section>
   );
