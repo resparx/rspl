@@ -9,9 +9,9 @@ const Section = ({ number = "01", sectionTitle ="Services", theme, title, conten
     <section className={`flex items-center gap-12 h-[70vh] pl-[20%] ${wrapperClasses}`}>
       <div className="flex flex-col gap-6 items-center">
         <div className={`rounded-full p-2 ${bgColor}`}>
-          <p className={`${fontColor} text-xl`}>{number}</p>
+          <p className={`${fontColor} text-xl font-semibold`}>{number}</p>
         </div>
-        <p className={`${fontColor} [writing-mode:vertical-lr] text-3xl tracking-widest`}>{sectionTitle}</p>
+        <p className={`${fontColor} [writing-mode:vertical-lr] font-semibold text-3xl tracking-widest`}>{sectionTitle}</p>
       </div>
       <div className="flex gap-20 items-center">
       <div className="flex flex-col">
