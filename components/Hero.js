@@ -11,16 +11,17 @@ const Hero = () => {
       title: "Clinical Decision Support",
       content: "Creating AI-driven tools that analyze patient data, medical histories, and clinical guidelines to provide healthcare professionals with personalized treatment recommendations, drug interactions alerts, and risk assessments",
       number: "01",
-      wrapperClasses: "bg-yellow-400",
+      wrapperClasses: "bg-yellow-100",
       theme: "light",
       icon: <Brain className="fill-slate-800" height={300} />
     },
     {
       title: "Remote Patient Monitoring",
       content: "Designing AI-powered devices and software for remote patient monitoring, allowing healthcare providers to track patients' vital signs, symptoms, and adherence to treatment plans in real-time, leading to proactive intervention and improved chronic disease management",
-      wrapperClasses: "bg-green-400",
+      wrapperClasses: "bg-cyan-200",
       number: "02",
-      icon: <ThermoMeter className="fill-white" height={300} />
+      theme: "light",
+      icon: <ThermoMeter className="fill-slate-800" height={300} />
     },
     {
       title: "Drug Discovery and Development",
@@ -33,16 +34,18 @@ const Hero = () => {
     {
       title: "Healthcare Operations Optimization",
       content: "Implementing AI-driven solutions for healthcare operations, such as predictive analytics for resource allocation, supply chain optimization, staff scheduling, and workflow automation, to improve efficiency and reduce costs",
-      wrapperClasses: "bg-rose-500",
+      wrapperClasses: "bg-rose-300",
+      theme: "light",
       number: "04",
-      icon: <BriedCaseMed className="fill-white"  height={300} />,
+      icon: <BriedCaseMed className="fill-slate-800"  height={300} />,
       
     },
     {
       title: "Natural Language Processing (NLP)",
       content: "Developing NLP algorithms to extract and analyze unstructured medical data from electronic health records (EHRs), clinical notes, and research literature, enabling insights into patient outcomes, disease trends, and treatment effectiveness",
-      wrapperClasses: "bg-sky-500",
-      icon: <Chip className="fill-white" height={300} />,
+      wrapperClasses: "bg-orange-300",
+      theme: "light",
+      icon: <Chip className="fill-slate-800" height={300} />,
       number: "05"
     },
     {
