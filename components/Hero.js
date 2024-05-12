@@ -67,7 +67,7 @@ const Hero = () => {
   return (
     <section className=" flex gap-12 justify-between items-center flex-col lg:flex-row py-0">
       <div className="flex flex-col">
-        <div className="pb-[3%] pt-[10%] pl-[5%] lg:pl-[20%] pr-[10%]">
+        <div className="pb-[3%] pt-[20%] lg:pt-[10%] pl-[5%] lg:pl-[20%] pr-[10%]">
           <p className="font-semibold text-xl lg:text-3xl text-slate-800">
             RSPL Health:
             <br />
