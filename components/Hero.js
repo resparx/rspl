@@ -8,7 +8,7 @@ const Hero = () => {
       content: "Creating AI-driven tools that analyze patient data, medical histories, and clinical guidelines to provide healthcare professionals with personalized treatment recommendations, drug interactions alerts, and risk assessments",
       number: "01",
       wrapperClasses: "bg-yellow-400",
-      theme: "dark"
+      theme: "light"
     },
     {
       title: "Remote Patient Monitoring",
