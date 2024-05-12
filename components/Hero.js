@@ -62,7 +62,7 @@ const Hero = () => {
       <div className="flex flex-col">
         <div className="pb-[3%] pt-[10%] pl-[20%] pr-[10%]">
           <p className="font-semibold text-3xl text-slate-800">
-          RSPL Health specializing in AI (Artificial Intelligence) and ML (Machine Learning) solutions typically offers innovative products and services that leverage these technologies to enhance healthcare delivery and improve patient outcomes. Here's a description
+          RSPL Health specializing in AI (Artificial Intelligence) and ML (Machine Learning) solutions typically offers innovative products and services that leverage these technologies to enhance healthcare delivery and improve patient outcomes. Here&apos;s a description
           </p>
           <p className="text-slate-800 text-xl mt-20">
           AI and ML-Powered Medical Solutions
