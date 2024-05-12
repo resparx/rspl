@@ -9,7 +9,7 @@ const Hero = () => {
             RSPL Health specializing in AI (Artificial Intelligence) and ML
             (Machine Learning) solutions typically offers innovative products
             and services that leverage these technologies to enhance healthcare
-            delivery and improve patient outcomes. Here's a description:
+            delivery and improve patient outcomes. Here&apos;s a description:
           </h1>
           <p className="lg:mt-12 lg:text-xl text-xs font-semibold text-slate-800">
             AI and ML-Powered Medical Solutions:
@@ -23,7 +23,7 @@ const Hero = () => {
           <p>
             2. **Remote Patient Monitoring:** Designing AI-powered devices and
             software for remote patient monitoring, allowing healthcare
-            providers to track patients' vital signs, symptoms, and adherence to
+            providers to track patients&apos; vital signs, symptoms, and adherence to
             treatment plans in real-time, leading to proactive intervention and
             improved chronic disease management.
           </p>
