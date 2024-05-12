@@ -92,7 +92,7 @@ const Hero = () => {
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-36">
             <div className="flex flex-col items-start gap-1 lg:gap-2">
               <Email className="fill-slate-600 h-4 lg:h-6" />
-              <p className="text-sm lg:text-xl text-slate-500">support @rsplhealth.in</p>
+              <p className="text-sm lg:text-xl text-slate-500">support@rsplhealth.in</p>
             </div>
             <div className="flex flex-col items-start gap-1 lg:gap-2">
               <Location className="fill-slate-600 h-4 lg:h-6" />
