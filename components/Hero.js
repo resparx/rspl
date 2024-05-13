@@ -95,7 +95,7 @@ const Hero = () => {
           <Section key={`section-${index}`} {...item} />
         ))}
 
-        <div className="flex flex-col py-20 pl-[20%] pr-[5%] gap-8 lg:gap-20">
+        {/* <div className="flex flex-col py-20 pl-[20%] pr-[5%] gap-8 lg:gap-20">
           <p className="text-2xl lg:text-7xl font-semibold text-slate-700">
             Contact us
           </p>
@@ -118,7 +118,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
     </>
